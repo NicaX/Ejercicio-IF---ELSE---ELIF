@@ -17,12 +17,15 @@ altura_jugador = int(input("Ingrese la altura del Jugador: "))
 
 if altura_jugador < 160:
     print("La posicion del jugador es Base")
-elif altura_jugador >= 160 and altura_jugador <= 179:
+elif altura_jugador <= 179:
     print("La posicion del jugador es Escolta")
-elif altura_jugador >= 180 and altura_jugador <= 199:
+elif altura_jugador <= 199:
     print("La posicion del jugador es Alero")
-else:
+elif altura_jugador <= 250:
     print("La posicion del jugador es Pívot") 
+else:
+    print("Altura no válida")
+
 
 """"ejericio 2"""
 
